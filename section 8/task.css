@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap');
+
+*{
+  margin: 0;
+}
+header {
+  height:500px;
+ width:100%;
+padding: 0px;
+position: relative;
+}
+
+.imag {
+  height:500px;
+  width:100%;
+  padding: 0px;
+  position: absolute;
+ 
+}
+.logo {
+  height:50px;
+  width:50px;
+  padding: 0px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+ 
+}
+
+.menu {
+  height:50px;
+  width:600px;
+  padding: 0px;
+  position: absolute;
+  right: 30px;
+  top: 20px;
+  
+}
+
+.menu a {
+  float: right;
+  display: inline;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.box {
+  height:500px;
+  width:100%;
+  background-color:rgb(39, 77, 133);
+  opacity: 50%;
+position: absolute;
+}
+
+.H_words {
+  height:500px;
+  width:100%;
+  margin:70px 10px;
+position: absolute;
+text-align: center;
+font-weight: 200;
+font-variant: small-caps;
+font-display: 2px;
+padding: 70px;
+color: rgb(255, 255, 255);
+font-family: 'Urbanist', sans-serif;
+}
+
+.H_words button {
+margin: 10px;
+color: rgb(252, 252, 252);
+background-color: rgb(25, 49, 68);
+border: 0px;
+padding: 10px 20px;
+border-radius: 10px;
+
+}
+
+.square {
+  height: 60px;
+  width: 35px;
+  background-color: rgb(218, 214, 214);
+  opacity: 10%;
+  display: block;
+  position: absolute;
+  right: 43.5%;
+  top: 66%;
+  
+  border-color: black;
+  border-radius: 60px;
+}
+
+.anim {
+animation-name: anim;
+animation-duration: 2s;
+
+height: 10px;
+  width: 10px;
+  
+  display: block;
+  position: absolute;
+  right: 43.5%;
+  top: 66%;
+  border-radius: 50px;
+
+}
+
+@keyframes anim {
+0%   {background-color:rgba(65, 65, 65, 0.178); left:0px; top:0px; left: 11px;}
+  25%  {background-color:rgb(71, 70, 70); bottom: 10px; left: 11px;}
+  50%  {background-color:rgb(110, 109, 109); bottom: 20px; left: 11px;}
+  75%  {background-color:rgb(158, 155, 155); bottom: 30px; left: 11px;}
+  100% {background-color:rgb(182, 175, 175); bottom: 40px; left: 11px;}
+
+}
