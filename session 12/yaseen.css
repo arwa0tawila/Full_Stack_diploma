@@ -1,0 +1,168 @@
+
+
+body {
+  background-attachment: fixed;
+  background-image: url(https://preview.colorlib.com/theme/yaseen/img/xbanner-bg.jpg.pagespeed.ic.A9GTLArcl5.webp);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+box-sizing: 0;
+
+
+}
+
+.overlay1 {
+  height: 3900px;
+  width: 100%;
+ z-index: -1111;
+  /* padding: 50px 30px; */
+  background-image: -webkit-linear-gradient(
+135deg,#91d1ff 0%,#a387ff 100%);
+opacity: 80%;
+}
+
+.container {
+  position: absolute;
+  top: 2%;
+  left: 10%;
+  width: 80%;
+
+}
+
+.top_header img {
+  height: 50px;
+  width: 120px;
+  margin: 10px;
+}
+
+
+
+.button {
+  height:498.6px ; 
+  width: 100%;
+  background-image: -webkit-linear-gradient(
+    135deg,#91d1ff 0%,#a387ff 100%);
+    opacity: 80%;
+}
+
+.sec2 {
+  height:700.400px ; 
+ width: 100%;
+  background-color: lavender;
+}
+
+.sec2img {
+  height: 600px;
+  width: 400px;
+
+}
+
+.about-right span, a{
+  font-weight: 600;
+  color: #000;
+}
+
+.about-right h1 {
+  font-size: 36px;
+  font-weight: 100;
+  color: #a387ff;
+}
+
+.lnr-sun:before {
+  content: "\e807";
+}
+
+.lnr {
+  font-family: 'Linearicons-Free';
+  speak-as: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sec_card {
+  height:500.400px ; 
+ width: 100%;
+ background-image: -webkit-linear-gradient(
+  135deg,#91d1ff 0%,#a387ff 100%);
+  opacity: 80%;
+}
+
+.sec_number {
+  height:300.400px ; 
+  width: 100%;
+  background-color: aliceblue;
+ 
+}
+.sec_number div {
+  margin-top: 10%;
+}
+
+.sec_number h6 , .sec_photo_details small, .sec_text_num h1{
+color: #9e6cee;
+}
+
+.sec_photo_details{
+  height:700.400px ; 
+  width: 100%;
+  background-color: rgb(245, 245, 245);
+ padding: 10% 5%;
+ 
+}
+
+
+
+.card_1{
+  height: 90%;
+  width: 70%;
+
+}
+
+.card-footer{
+  background-color:white;
+}
+
+.sec_text_num{
+  height:400.400px ; 
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+ padding: 10% 5%;
+ 
+}
+
+.subscribe{
+  height:300.400px ; 
+  width: 100%;
+  background-image: -webkit-linear-gradient(
+  135deg,#91d1ff 0%,#a387ff 100%);
+  opacity: 80%;
+ padding: 5% 5%;
+}
+
+.bg-btn{
+  background-image: -webkit-linear-gradient(
+    135deg,#91d1ff 0%,#a387ff 100%);
+}
+
+.ss{
+  width: 60%;
+  margin-left: 20%;
+}
+
+.br{
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
