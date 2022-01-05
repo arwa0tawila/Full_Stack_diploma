@@ -1,0 +1,368 @@
+*{
+  box-sizing: 0;
+}
+body{
+  height: 3000px;
+  width: 100%;
+}
+
+.nav{
+  margin-top: 20px;
+  margin-left: 42px;
+  height: 10%;
+  width: 90%;
+
+}
+.nav_logo{
+  height: 90px;
+  width: 120px;
+  padding-bottom: 40px;
+  margin-right: 20px;
+
+}
+.nav-item{
+ text-decoration: none;
+ font-family: 'Courier New', Courier, monospace;
+ font-size: medium;
+ font-weight: 600;
+
+}
+.nav-item a{
+  color: rgb(11, 68, 16);
+  text-decoration-color:rgb(157, 255, 0) ;
+  -moz-text-decoration-color:blue ;
+}
+
+.btn-success{
+  background-color: rgb(11, 68, 16); 
+  border: rgb(11, 68, 16);
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+}
+
+.btn-success::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+
+  font-weight: bold;
+  
+  width: 10px;
+}
+
+.btn-success:hover:before{
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90px;
+  height: 30px;
+  background-color: rgba(110, 143, 93, 0.877);
+  transform: rotate(20deg);
+  transition: width 1s, height 1s;
+  -webkit-transition: width 1s, height 1s;
+  -moz-transition: width 1s, height 1s;
+  -ms-transition: width 1s, height 1s;
+  -o-transition: width 1s, height 1s;
+  -webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  -o-transform: rotate(20deg);
+}
+
+.nav-item a:hover{
+  border-bottom: solid 3px rgb(11, 68, 16);
+  color: rgba(37, 104, 6, 0.877);
+  transform: rotate(20deg);
+  transition: width 1s, height 1s;
+  -webkit-transition: width 1s, height 1s;
+  -moz-transition: width 1s, height 1s;
+  -ms-transition: width 1s, height 1s;
+  -o-transition: width 1s, height 1s;
+  -webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  -o-transform: rotate(20deg);
+}
+@media(max-width:1024px){
+  .nav{
+  width: 100%;
+  height: 5%;
+  margin-top: 30px;
+  margin-left: 10px;
+  }
+
+  .nav_logo{
+    height: 50px;
+    width: 80px;
+    padding-bottom: 10px;
+    margin: 0;
+  }
+}
+
+@media(max-width:768px){
+  .nav{
+  width: 90%;
+  height: 5%;
+  margin-top: 30px;
+  margin-left: 30px;
+  }
+  .nav-item{
+    margin: 0;
+    padding: 0;
+    font-size: small;
+  }
+  .nav_logo{
+    height: 50px;
+    width: 50px;
+    padding-bottom: 10px;
+    margin: 0;
+  }
+}
+@media(max-width:700px){
+  .nav{
+  width: 22%;
+  height: 5%;
+  }
+  .nav_logo{
+    height: 50px;
+    width: 70px;
+
+    margin-right: 10px;
+  
+  }
+  .nav-item{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5px;
+    font-weight: 300;
+   
+   }
+   .btn-success {
+    background-color: rgb(11, 68, 16);
+    border: rgb(11, 68, 16);
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 10px;
+    z-index: 1;
+}
+}
+
+@media(max-width:375px){
+  .nav{
+  width: 17%;
+  height: 5%;
+  }
+  .nav_logo{
+    height: 30px;
+    width: 10px;
+    padding-bottom: 10px;
+
+  
+  }
+  .nav-item{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3px;
+
+   
+   }
+   .btn-success {
+    background-color: rgb(11, 68, 16);
+    border: rgb(11, 68, 16);
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 10px;
+    z-index: 1;
+}
+}
+
+
+/* <!-- ^^^^^^^^^^^^^^^^^^^^^^^^  End Nav  ^^^^^^^^^^^^^^^^^^^^^^^ -->
+
+<!-- ^^^^^^^^^^^^^^^^^^^^^^^^  S carousel  ^^^^^^^^^^^^^^^^^^^^^^^ --> */
+
+
+.carousel-item{
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.carsol_info {
+  position: absolute;
+  position: absolute;
+  top: 36%;
+  right: 18%;
+}
+.carsol_info h1{
+  
+  color: rgba(37, 104, 6, 0.836);
+  font-size: 52px;
+  font-weight: 700;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.carsol_info p{
+  color: rgba(255, 255, 255, 0.849);
+  font-size: 23px;
+  font-weight: 400;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+.carsol_info i {
+  position: absolute;
+  top: -52%;
+  left: 42%;
+font-size: 75px;
+color: rgb(11, 68, 16);
+  
+}
+
+@media(max-width:1024px){
+  .carsol_info {
+    position: absolute;
+    top: 64%;
+    right: 5%;
+}
+  .carsol_info i {
+    position: absolute;
+    top: -80%;
+    left: 47%;
+  
+}
+}
+
+@media(max-width:768px){
+  .carsol_info {
+    position: absolute;
+    top: 20%;
+    right: 3%;
+    left: 3%;
+    text-align: center;
+}
+  .carsol_info i {
+    position: absolute;
+    top: -87%;
+    left: 47%;
+  
+}
+}
+
+@media(max-width:768px){
+  .carousel-item{
+    height: 200px;
+    width: 100%;
+  }
+  .carsol_info {
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    left: 3%;
+    text-align: center;
+}
+.carsol_info h1{
+  
+  color: rgba(37, 104, 6, 0.836);
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.carsol_info p{
+  color: rgba(255, 255, 255, 0.849);
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+.carsol_info i {
+  position: absolute;
+  top: -6%;
+  left: 47%;
+font-size: 15px;
+color: rgb(11, 68, 16);
+  
+}
+}
+
+
+/* <!-- ^^^^^^^^^^^^^^^^^^^^^^^^  End carousel  ^^^^^^^^^^^^^^^^^^^^^^^ -->  */
+
+/* <!-- ^^^^^^^^^^^^^^^^^^^^^^^^  S sec1  ^^^^^^^^^^^^^^^^^^^^^^^ -->  */
+
+.sec1{
+
+  height: 400px;
+  width: 100%;
+
+overflow: hidden;
+
+}
+
+.card_sec1{
+  background-color: rgb(235, 255, 235);
+  height: 400px;
+  width: 100%;
+
+  overflow: hidden;
+}
+.card_info{
+  margin-left: 10%;
+}
+.card_info h5{
+  margin-top: 7%;
+  color: rgb(11, 68, 16);
+  font-size:74px;
+  font-weight: 700;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.card_info p{
+  color: rgba(6, 34, 21, 0.959);
+  font-size:14px;
+  font-weight: 700;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+@media (max-width:768px){
+  .card_sec1{
+    height: 300px;
+  }
+  .card_info h5{
+    margin-top: 3%;
+    font-size:54px;
+  }
+  .card_info{
+    margin-left: 1%;
+  }
+}
+
+@media (max-width:705px){
+  .card_sec1{
+    height: 300px;
+  }
+  .card_info h5{
+    margin-top: 3%;
+    font-size:14px;
+  }
+  .card_info{
+    margin-left: 30%;
+    margin-top: -26%;
+    padding: 0;
+
+  }
+  .card_img{
+    height: 176%;
+    width: 100px;
+  }
+  .card_info p{
+font-size: 10px;
+  }
+
+}
